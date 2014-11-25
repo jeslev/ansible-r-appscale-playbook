@@ -40,7 +40,7 @@ group : 'appscale-rmr'
 infrastructure : 'ec2'
 instance_type : 'm1.large'
 keyname : 'appscale-rmr'
-machine : 'ami-4e472227'
+machine : 'ami-40fb0228'
 max : 3
 min : 3
 table : 'hypertable'
@@ -181,4 +181,4 @@ Thats it!  Now you can use R to leverage MapReduce on AppScale running on AWS/Eu
 - http://cran.r-project.org/doc/manuals/r-release/R-intro.html
 
 
-
+UPD: Playbook and ami updated for Ubuntu Server 12.04 LTS
